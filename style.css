@@ -1,0 +1,155 @@
+html{        
+    
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5C2qab1jKYOQ4kLajCFCYw2ciapVU4JlQKQ&usqp=CAU")
+    
+}
+
+.row{
+    height: 100%;
+    display: flex;
+    flex-direction:row;
+    box-sizing: border-box;
+}
+
+.row .col-40{
+    width: 40%;
+    height: 100%;
+}
+
+.row .col-40 figure{
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.row .col-40 figure img{
+    height: 630px;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+.row .col-60{
+    width: 60%;
+    height: 100vh;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.row .col-60 form{
+    width: 100%;
+}
+
+.row .col-60 form .div-group{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.row .col-60 form .div-group h2{
+    font-family:fantasy;
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+}
+
+.row .col-60 form .div-group ul{
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.row .col-60 form .div-group ul li{
+    padding: 5px 20px 5px 20px;
+}
+
+.row .col-60 form .div-group ul li label{
+    font-family: fantasy;
+    font-size: 1.3rem;
+}
+
+.row .col-60 form .div-group ul li input{
+    width: 17px;
+    height: 17px;
+    border: solid 1px burlywood;
+}
+
+.row .col-60 form .div-group ul li input:checked{
+    border: solid 1px burlywood;
+    color: burlywood;
+}
+
+.row .col-60 form .div-group:nth-child(3){
+    display: flex;
+    width: 100%;
+}
+
+.row .col-60 form .div-group:nth-child(3) input{
+    padding: 14px 7px;
+    margin: 0 auto;
+    border: solid 1px #d5d5d5;
+    border-radius: 5px;
+    font-family: fantasy;
+    font-size: 1.1rem;
+    color: #D5d5d5;
+    outline: none;
+}
+
+.row .col-60 form .div-group:nth-child(3) input:focus{
+    border: solid 2px burlywood;
+    box-sizing: border-box;
+}
+
+.row .col-60 form .div-group:nth-child(3) input:active{
+    border: none;
+}
+
+.row .col-60 form .div-group:nth-child(4){
+    display: flex;
+    flex-direction: column;
+}
+
+.row .col-60 form .div-group:nth-child(4) label{
+    font-family: fantasy;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.row .col-60 form .div-group:nth-child(4) textarea{
+    border-radius: 7px;
+    outline: none;
+    padding: 10px;
+    font-family: fantasy;
+    font-size: 1.1rem;
+    color: #8a8888;
+}
+
+.row .col-60 form .div-group:nth-child(5) button{
+    border-radius: 17px;
+    padding: 10px 5px;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.row .col-60 form .div-group:nth-child(5) button:hover{
+    background-color: rgb(69, 38, 179);
+    cursor: pointer;
+}
